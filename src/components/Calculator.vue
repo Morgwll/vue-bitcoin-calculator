@@ -1,6 +1,6 @@
 <template>
   <div class="calculator">
-    If you want to buy <input class="calculator__input" v-model="poundEntry" value="1"/> Bitcoins<br>
+    If you want to buy <input class="calculator__input" type="number" v-model="poundEntry" value="1"/> Bitcoins<br>
     it will cost you <span class="calculator__price">£{{ bitcoinValue }}</span>
   </div>
 </template>
